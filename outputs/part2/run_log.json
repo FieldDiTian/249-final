@@ -1,0 +1,40 @@
+[
+  {
+    "name": "pinn_elu_5-10-1_lr5e-4_e20000_kappa1.3",
+    "model": [
+      5,
+      10,
+      1
+    ],
+    "activation": "elu",
+    "optimizer": "adam",
+    "learning_rate": 0.0005,
+    "epochs": 20000,
+    "batch_size": 32,
+    "kappa": 1.3,
+    "loss_best": null,
+    "plots": [
+      "outputs/part2/pinn_scatter.png",
+      "outputs/part2/pinn_surface.png",
+      "outputs/part2/pinn_heatmap.png"
+    ],
+    "notes": "Current notebook state; run cell0-3 then plotting cells to populate loss and images"
+  },
+  {
+    "name": "pinn_elu_5-10-1_lr1e-3_e5000_kappa1.3_prev",
+    "model": [
+      5,
+      10,
+      1
+    ],
+    "activation": "elu",
+    "optimizer": "adam",
+    "learning_rate": 0.001,
+    "epochs": 5000,
+    "batch_size": 32,
+    "kappa": 1.3,
+    "loss_best": 2.3861894607543945,
+    "plots": [],
+    "notes": "Earlier run before reset; loss too high"
+  }
+]
